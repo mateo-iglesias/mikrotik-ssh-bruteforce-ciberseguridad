@@ -10,17 +10,6 @@ Caso real: intentos de acceso por SSH contra un router MikroTik expuesto a Inter
 
 ![Intentos de login SSH](evidencia/intento_de_ingreso_ssh.png)
 
-```
-2026-11-12 01:40:53 system,error,critical login failure for user pi from 176.53.159.197 via ssh
-2026-11-12 01:41:07 system,error,critical login failure for user pi from 176.53.159.197 via ssh
-2026-11-12 01:41:07 system,error,critical login failure for user root from 176.53.159.197 via ssh
-2026-11-12 01:41:17 system,error,critical login failure for user root from 176.53.159.197 via ssh
-2026-11-12 01:41:31 system,error,critical login failure for user user from 176.53.159.197 via ssh
-2026-11-12 01:41:42 system,error,critical login failure for user user from 176.53.159.197 via ssh
-2026-11-12 01:41:42 system,error,critical login failure for user admin from 176.53.159.197 via ssh
-2026-11-12 01:41:53 system,error,critical login failure for user admin from 176.53.159.197 via ssh
-```
-
 ## 2. Qué está pasando
 
 | Indicador | Lectura |
@@ -122,4 +111,4 @@ Si los contadores de las reglas de drop suben, el router está descartando los i
 
 ---
 
-**Autor:** Anderson Mateo Iglesias Suárez · Administración de redes ISP · Ciberseguridad
+**Autor:** Anderson Mateo Iglesias Suárez · Administración de redes · Ciberseguridad
